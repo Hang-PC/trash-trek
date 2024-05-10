@@ -628,15 +628,17 @@ strong {
 .logo {
      background-color: var(--white-color);
      border-radius: var(--border-radius-large);
-     width: 80px;
-     height: 80px;
-     padding: 15px;
+     width: 50px;
+     height: 50px;
+}
+
+#trash-treck{
+     color: var(--primary-color);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
      margin: 20px;
-     padding: 0;
-}
+     padding: 0;}
 
 .navbar-nav .nav-link {
      display: inline-block;
@@ -720,6 +722,9 @@ strong {
           opacity: 1;
           margin-top: 0;
           pointer-events: auto;
+     }
+     #trash-treck{
+          color: #ffffff;
      }
 }
 
@@ -1297,10 +1302,9 @@ strong {
 .site-footer .logo {
      background-color: var(--white-color);
      border-radius: var(--border-radius-large);
-     width: 80px;
-     height: 80px;
+     width: 50px;
+     height: 50px;
      object-fit: cover;
-     padding: 15px;
 }
 
 .site-footer-title,
