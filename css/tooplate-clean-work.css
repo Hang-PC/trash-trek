@@ -574,7 +574,6 @@ strong {
      padding: 10px 25px;
 }
 
-
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
      margin-top: 8px;
      margin-right: 0;
@@ -632,13 +631,14 @@ strong {
      height: 50px;
 }
 
-#trash-treck{
+#trash-treck {
      color: var(--primary-color);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
      margin: 20px;
-     padding: 0;}
+     padding: 0;
+}
 
 .navbar-nav .nav-link {
      display: inline-block;
@@ -723,7 +723,7 @@ strong {
           margin-top: 0;
           pointer-events: auto;
      }
-     #trash-treck{
+     #trash-treck {
           color: #ffffff;
      }
 }
@@ -954,8 +954,8 @@ strong {
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
-.about-section h2{
-     color: var(--primary-color)
+.about-section h2 {
+     color: var(--primary-color);
 }
 
 /*---------------------------------------
@@ -1550,6 +1550,10 @@ strong {
           bottom: auto;
           right: 0;
           left: 0;
+     }
+     .footer-menu {
+          column-count: 1;
+          padding: 10px;
      }
 }
 
