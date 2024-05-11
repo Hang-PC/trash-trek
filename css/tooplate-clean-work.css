@@ -634,6 +634,9 @@ strong {
 #trash-treck {
      color: var(--primary-color);
 }
+#zeroImage{
+     display: none;
+}
 
 .navbar-expand-lg .navbar-nav .nav-link {
      margin: 20px;
@@ -725,6 +728,12 @@ strong {
      }
      #trash-treck {
           color: #ffffff;
+     }
+}
+
+@media screen and (min-width: 780px) {
+     #zeroImage{
+          display: inline-block;
      }
 }
 

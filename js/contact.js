@@ -1,6 +1,6 @@
 
 emailjs.init({
-    publicKey: 'C9wNpNzGX85GCb-e3',
+    publicKey: 'ze060Z36cKwuIRo-J',
     // Do not allow headless browsers
     blockHeadless: true,
     limitRate: {
@@ -25,7 +25,7 @@ function sendMail(e) {
         message: message.value
     };
 
-    emailjs.send('service_0v8dj2q', 'template_l4wet1g', templateParams).then(
+    emailjs.send('service_yuwc4vm', 'template_iddnt8c', templateParams).then(
         (response) => {
             console.log('SUCCESS!', response.status, response.text);
             Swal.fire({
